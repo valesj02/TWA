@@ -1,0 +1,29 @@
+[
+  {
+    "id": 2,
+    "name": "mys",
+    "price": 200
+  },
+  {
+    "id": 3,
+    "name": "klavesnice",
+    "price": 250
+  },
+  {
+    "id": null,
+    "name": "",
+    "price": null
+  },
+  {
+    "id": 4,
+    "name": "televize",
+    "price": 999,
+    "weight": 5
+  },
+  {
+    "id": 5,
+    "name": "pocitac",
+    "price": 2000,
+    "weight": 10
+  }
+]

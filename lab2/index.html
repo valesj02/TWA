@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter your details</h2>
+
+    <form id="userform">
+        <label for="username">Username</label><br><br>
+        <input type="text" id="username" name="username" required><br></br>
+
+        <label for="password">Password</label><br><br>
+        <input type="password" id="password" name="password" required><br></br>
+        
+        <label for="text">Text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="30"></textarea><br></br>
+
+        <label>select method: </label><br>
+        <input type="radio" id="getMethod" name="method" value="GET" checked>
+        <label for="getMethod">GET</label>
+
+        <input type="radio" id="getMethod" name="method" value="LOCAL" checked>
+        <label for="getMethod">LOCAL (simulating POST)</label><br></br>
+        
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
